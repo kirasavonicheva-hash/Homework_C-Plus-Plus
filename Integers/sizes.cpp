@@ -13,4 +13,6 @@ int main()
     std::cout << "char: " << sizeof(char) << '\n';
     std::cout << "bool: " << sizeof(bool) << '\n';
 
+    return 0;
+
 }
