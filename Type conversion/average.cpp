@@ -20,11 +20,11 @@ int main()
 
     std::cout << "Оценки: " << Grade_1 << " " << Grade_2 << " " << Grade_3 << std::endl;
 
-    int sum = static_cast<double>(Grade_1) + Grade_2 + Grade_3;
-    std::cout << "Целочисленное средние: " << sum / 3 << std::endl;
+    int sum_1 = static_cast<double>(Grade_1) + Grade_2 + Grade_3;
+    std::cout << "Целочисленное средние: " << sum_1 / 3 << std::endl;
 
-    double num = static_cast<double>(Grade_1) + Grade_2 + Grade_3;
-    std::cout << "Дробное средние: " << num / 3 << std::endl;
+    double sum_2 = static_cast<double>(Grade_1) + Grade_2 + Grade_3;
+    std::cout << "Дробное средние: " << sum_2 / 3 << std::endl;
 
     return 0;
 }
