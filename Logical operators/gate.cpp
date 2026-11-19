@@ -29,5 +29,5 @@ int main()
     std::cout << "Отказ." << (cod == 0) << std::endl;
     std::cout << "Совпадение де Моргана: " << !((age < 18 || !hasPass)) << " " << (age >= 18 && hasPass) << std::endl;
 
-
+    return 0;
 }
