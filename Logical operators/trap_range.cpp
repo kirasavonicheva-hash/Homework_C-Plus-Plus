@@ -15,4 +15,6 @@ int main()
 
     std::cout << ((0 < y) < 10) << std::endl;
     std::cout << ((0 < y) < 10) << std::endl;
+
+    return 0;
 }
