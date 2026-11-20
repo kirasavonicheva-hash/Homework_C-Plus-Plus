@@ -13,7 +13,7 @@ int main() {
     if (Time <= 6) {
         std::cout << "Доброй ночи! " << "Час: " << Time << std::endl;
     }else if (Time <= 12) {
-        std::cout << "Добрый утро!" << "Час: " << Time << std::endl;
+        std::cout << "Добрый утро! " << "Час: " << Time << std::endl;
     }else if (Time <= 18) {
         std::cout << "Добрый день! " << "Час: " << Time << std::endl;
     }else {
