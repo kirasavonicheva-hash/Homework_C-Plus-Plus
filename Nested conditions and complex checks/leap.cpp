@@ -15,9 +15,9 @@ int main() {
     std::cout << "Проверка: " << isLeap << std::endl;
 
     if (isLeap) {
-        std::cout << Year << " — високосный" << std::endl;
+        std::cout << Year << " - високосный" << std::endl;
     } else {
-        std::cout << Year << " — не високосный" << std::endl;
+        std::cout << Year << " - не високосный" << std::endl;
     }
 
     return 0;
