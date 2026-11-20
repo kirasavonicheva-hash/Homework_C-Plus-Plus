@@ -38,7 +38,7 @@ int main() {
     std::cout << "Введите количество билетов: " << std::endl;
     std::cin >> Ticket;
 
-    if (Ticket >= 1) {
+    if (Ticket <= 1) {
         std::cout << "Количество должно быть не меньше 1." << std::endl;
     }else {
         std::cout << "К оплате: " << Price * Ticket << std::endl;
