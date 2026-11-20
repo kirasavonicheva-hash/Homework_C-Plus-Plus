@@ -5,7 +5,7 @@ int main() {
 
     SetConsoleOutputCP(CP_UTF8);
 
-    int num;
+    double num;
 
     std::cout << "Введите число: " << std::endl;
     std::cin >> num;
