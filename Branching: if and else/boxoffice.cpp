@@ -26,13 +26,13 @@ int main() {
     std::cin >> Age;
 
     if (Age <= 12) {
-        std::cout << "Детский " << (Price = 100) << " Rub." << std::endl;
+        std::cout << "Категория: " << "Детский " << (Price = 100) << " Rub." << std::endl;
     }else if (Age <= 17) {
-        std::cout << "Школьный " << (Price = 150) << " Rub." << std::endl;
+        std::cout << "Категория: " << "Школьный " << (Price = 150) << " Rub." << std::endl;
     }else if (Age >= 18) {
-        std::cout << "Взрослый " << (Price = 250) << " Rub." << std::endl;
+        std::cout << "Категория: " << "Взрослый " << (Price = 250) << " Rub." << std::endl;
     }else if (Age >= 65) {
-        std::cout << "Пенсионный " << (Price = 120) << " Rub." << std::endl;
+        std::cout << "Категория: " << "Пенсионный " << (Price = 120) << " Rub." << std::endl;
     }
 
     std::cout << "Введите количество билетов: " << std::endl;
